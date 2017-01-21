@@ -12,6 +12,7 @@
 		09802C5F1D1A6E5C003CB087 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09802C5D1D1A6E5C003CB087 /* Main.storyboard */; };
 		09802C611D1A6E5C003CB087 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09802C601D1A6E5C003CB087 /* Assets.xcassets */; };
 		09802C641D1A6E5C003CB087 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09802C621D1A6E5C003CB087 /* LaunchScreen.storyboard */; };
+		09802C6C1D1A82FF003CB087 /* placeholder.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 09802C6B1D1A82FF003CB087 /* placeholder.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		09802C601D1A6E5C003CB087 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		09802C631D1A6E5C003CB087 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		09802C651D1A6E5C003CB087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		09802C6B1D1A82FF003CB087 /* placeholder.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = placeholder.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		09802C581D1A6E5C003CB087 /* App_NSUserDefault_Intro */ = {
 			isa = PBXGroup;
 			children = (
+				09802C6B1D1A82FF003CB087 /* placeholder.jpg */,
 				09802C591D1A6E5C003CB087 /* AppDelegate.swift */,
 				09802C5B1D1A6E5C003CB087 /* ViewController.swift */,
 				09802C5D1D1A6E5C003CB087 /* Main.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					09802C551D1A6E5B003CB087 = {
 						CreatedOnToolsVersion = 7.3;
+						LastSwiftMigration = 0820;
 					};
 				};
 			};
@@ -123,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				09802C641D1A6E5C003CB087 /* LaunchScreen.storyboard in Resources */,
+				09802C6C1D1A82FF003CB087 /* placeholder.jpg in Resources */,
 				09802C611D1A6E5C003CB087 /* Assets.xcassets in Resources */,
 				09802C5F1D1A6E5C003CB087 /* Main.storyboard in Resources */,
 			);
@@ -253,6 +258,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "es.cice.App-NSUserDefault-Intro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -264,6 +270,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "es.cice.App-NSUserDefault-Intro";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -286,6 +293,7 @@
 				09802C6A1D1A6E5C003CB087 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
